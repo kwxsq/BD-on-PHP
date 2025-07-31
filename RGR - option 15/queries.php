@@ -27,7 +27,6 @@ function renderQueryResult($result, ...$headers)
     }
 }
 
-// Получаем список языков из базы данных для выпадающего списка
 function getLanguages($db)
 {
     $sql = "SELECT DISTINCT язык FROM Курсы";
@@ -37,7 +36,6 @@ function getLanguages($db)
 
 echo "<h2>Запросы</h2>";
 
-// Форма для выполнения запросов
 echo "<form method='post'>";
 echo "<h3>Запрос 1: Студенты и курсы</h3>";
 echo "<p>Вывести имена студентов и названия курсов, на которые они записаны, вместе с датой начала курса.</p>";
