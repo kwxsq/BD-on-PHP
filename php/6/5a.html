@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Викторина: Проверка знаний</title>
+</head>
+<body>
+    <h2>Пройдите викторину</h2>
+    <form action="5b.php" method="post">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" name="name" required>
+        <br><br>
+
+        <h3>Вопрос 1: Какая планета ближе всего к Солнцу?</h3>
+        <select name="q1">
+            <option value="1">Земля</option>
+            <option value="2">Марс</option>
+            <option value="3">Меркурий</option>
+            <option value="4">Юпитер</option>
+        </select>
+
+        <h3>Вопрос 2: Сколько континентов на Земле?</h3>
+        <select name="q2">
+            <option value="1">5</option>
+            <option value="2">6</option>
+            <option value="3">7</option>
+            <option value="4">8</option>
+        </select>
+
+        <h3>Вопрос 3: Какой самый большой океан на Земле?</h3>
+        <select name="q3">
+            <option value="1">Атлантический</option>
+            <option value="2">Индийский</option>
+            <option value="3">Тихий</option>
+            <option value="4">Северный Ледовитый</option>
+        </select>
+
+        <br><br>
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+</html>
